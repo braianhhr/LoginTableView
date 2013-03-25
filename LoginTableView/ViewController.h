@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UITextField *textEmail;
+@property (strong, nonatomic) IBOutlet UITextField *textPassword;
+- (IBAction)loginPressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UILabel *mylabel;
+- (IBAction)dismissKeyboar:(id)sender;
 @end

@@ -18,6 +18,14 @@
 		CE953D8016F91F0E001425BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE953D7F16F91F0E001425BB /* Default-568h@2x.png */; };
 		CE953D8316F91F0E001425BB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE953D8116F91F0E001425BB /* MainStoryboard.storyboard */; };
 		CE953D8616F91F0E001425BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE953D8516F91F0E001425BB /* ViewController.m */; };
+		CE9E7E8116FBE4C20053AEF8 /* Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9E7E8016FBE4BD0053AEF8 /* Pencil.png */; };
+		CEC0F33D16FA566900E8DCCD /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0F33C16FA566900E8DCCD /* myViewController.m */; };
+		CEC0F35E16FA9FC000E8DCCD /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0F35D16FA9FC000E8DCCD /* MyCell.m */; };
+		CEC0F36416FA9FF600E8DCCD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC0F35F16FA9FF600E8DCCD /* 1.png */; };
+		CEC0F36516FA9FF600E8DCCD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC0F36016FA9FF600E8DCCD /* 2.png */; };
+		CEC0F36616FA9FF600E8DCCD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC0F36116FA9FF600E8DCCD /* 3.png */; };
+		CEC0F36716FA9FF600E8DCCD /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC0F36216FA9FF600E8DCCD /* 4.png */; };
+		CEC0F36816FA9FF600E8DCCD /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC0F36316FA9FF600E8DCCD /* 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,16 @@
 		CE953D8216F91F0E001425BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CE953D8416F91F0E001425BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE953D8516F91F0E001425BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE9E7E8016FBE4BD0053AEF8 /* Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pencil.png; sourceTree = "<group>"; };
+		CEC0F33B16FA566900E8DCCD /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		CEC0F33C16FA566900E8DCCD /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
+		CEC0F35C16FA9FC000E8DCCD /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		CEC0F35D16FA9FC000E8DCCD /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		CEC0F35F16FA9FF600E8DCCD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CEC0F36016FA9FF600E8DCCD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CEC0F36116FA9FF600E8DCCD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CEC0F36216FA9FF600E8DCCD /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CEC0F36316FA9FF600E8DCCD /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +101,17 @@
 		CE953D6F16F91F0E001425BB /* LoginTableView */ = {
 			isa = PBXGroup;
 			children = (
+				CEABF52C16FE8F4F0080C6AE /* images */,
 				CE953D7816F91F0E001425BB /* AppDelegate.h */,
 				CE953D7916F91F0E001425BB /* AppDelegate.m */,
 				CE953D8116F91F0E001425BB /* MainStoryboard.storyboard */,
 				CE953D8416F91F0E001425BB /* ViewController.h */,
 				CE953D8516F91F0E001425BB /* ViewController.m */,
 				CE953D7016F91F0E001425BB /* Supporting Files */,
+				CEC0F33B16FA566900E8DCCD /* myViewController.h */,
+				CEC0F33C16FA566900E8DCCD /* myViewController.m */,
+				CEC0F35C16FA9FC000E8DCCD /* MyCell.h */,
+				CEC0F35D16FA9FC000E8DCCD /* MyCell.m */,
 			);
 			path = LoginTableView;
 			sourceTree = "<group>";
@@ -105,6 +128,19 @@
 				CE953D7F16F91F0E001425BB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEABF52C16FE8F4F0080C6AE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E7E8016FBE4BD0053AEF8 /* Pencil.png */,
+				CEC0F35F16FA9FF600E8DCCD /* 1.png */,
+				CEC0F36016FA9FF600E8DCCD /* 2.png */,
+				CEC0F36116FA9FF600E8DCCD /* 3.png */,
+				CEC0F36216FA9FF600E8DCCD /* 4.png */,
+				CEC0F36316FA9FF600E8DCCD /* 5.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +199,12 @@
 				CE953D7E16F91F0E001425BB /* Default@2x.png in Resources */,
 				CE953D8016F91F0E001425BB /* Default-568h@2x.png in Resources */,
 				CE953D8316F91F0E001425BB /* MainStoryboard.storyboard in Resources */,
+				CEC0F36416FA9FF600E8DCCD /* 1.png in Resources */,
+				CEC0F36516FA9FF600E8DCCD /* 2.png in Resources */,
+				CEC0F36616FA9FF600E8DCCD /* 3.png in Resources */,
+				CEC0F36716FA9FF600E8DCCD /* 4.png in Resources */,
+				CEC0F36816FA9FF600E8DCCD /* 5.png in Resources */,
+				CE9E7E8116FBE4C20053AEF8 /* Pencil.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +218,8 @@
 				CE953D7616F91F0E001425BB /* main.m in Sources */,
 				CE953D7A16F91F0E001425BB /* AppDelegate.m in Sources */,
 				CE953D8616F91F0E001425BB /* ViewController.m in Sources */,
+				CEC0F33D16FA566900E8DCCD /* myViewController.m in Sources */,
+				CEC0F35E16FA9FC000E8DCCD /* MyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +342,7 @@
 				CE953D8B16F91F0F001425BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
